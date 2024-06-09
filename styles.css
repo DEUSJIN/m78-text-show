@@ -1,0 +1,91 @@
+@font-face {
+    src: url("fonts/SFSportsNight.ttf");
+    font-family: cool-font;
+}
+body {
+    text-align: center;
+    margin: 0 0;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+.first-section {
+    background-image: url("images/M78.jpg");
+    background-position: center;
+    background-size: cover; /* 或 cover，根据你的需求选择 */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+    text-shadow: 2px 2px #7D7C75;
+    margin-bottom: 0;
+}
+/*#main-logo{*/
+/*    object-fit: cover;*/
+/*    width: 80px;*/
+
+/*}*/
+.text-logo{
+    font-family: cool-font, sans-serif;
+    color: darkred;
+    text-shadow: 3px, 3px, 2px;
+}
+.welcome-words{
+    background-color: #8CA7B1;
+    margin-bottom: 0;
+}
+#welcome-word1{
+    width: 300px;
+    margin: 0 auto 0 auto;
+}
+#welcome-word2{
+    width: 500px;
+    margin: 10px auto 0 auto;
+}
+.second-section{
+    background: radial-gradient(#C20A12, #95383B);
+    margin-top: 0;
+    padding-top: 1px;
+    /*border: 1px solid black;*/
+}
+#three-ultramans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.ultraman-introduction{
+    width: 100%;
+    height: 300px;
+    margin: 0 24px;
+}
+.ultraman-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.third-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-around;
+    width: 320px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: aqua;
+    padding: 5px 5px;
+}
+.introduce-of-king{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+}
+#king-introduction {
+     font-style: italic
+}
+#king-img{
+    border-radius: 5px;
+}
