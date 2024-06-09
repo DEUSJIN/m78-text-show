@@ -6,6 +6,7 @@
 body {
     text-align: center;
     margin: 0 0;
+    padding: 0 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -19,10 +20,10 @@ h1, h2, h3, h4, h5 {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
-    height: 200px;
+    height: 300px;
     font-size: 30px;
     text-shadow: 2px 2px #7D7C75;
-    margin-bottom: 0;
+    margin: 0 0;
 }
 
 /*#main-logo{*/
